@@ -55,7 +55,7 @@ const Navbar = () => {
   ];
   return (
     <>
-      <nav className="bg-navBg py-3 sticky top-0 left-0 w-full ">
+      <nav className="bg-navBg py-3 sticky top-0 left-0 w-full z-30">
         <div className="my-container flex justify-between items-center px-2">
           <p className="text-4xl text-white">logo</p>
           <div className="sm:flex items-center gap-3 hidden">
