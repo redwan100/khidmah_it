@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-navBg pt-8">
+    <div className="bg-navBg pt-8 mt-8">
       <div className="my-container flex flex-wrap gap-5 justify-between">
         <div className="text-zinc-100 space-y-4">
           <h2 className="text-2xl font-semibold">Lets talk🤙</h2>
@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className="text-zinc-200 text-center font-semibold my-4 py-1">
+      <p className="text-zinc-200 text-center font-semibold  py-3">
         &copy; {new Date().getFullYear()} copy rights. All right reserved by
         <span className="font-bold text-yellow-400"> khidmah it</span>
       </p>
