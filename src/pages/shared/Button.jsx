@@ -2,7 +2,7 @@ import shape from "../../assets/Shapes.svg";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 const Button = ({ text = "btn text" }) => {
   return (
-    <button className="bg-btnBg py-2 px-4 rounded-sn relative flex items-center gap-2 drop-shadow-sm">
+    <button className="bg-btnBg py-2 px-4 rounded-sn relative flex items-center gap-2 drop-shadow-sm text-zinc-50 capitalize">
       <img
         src={shape}
         alt=""
