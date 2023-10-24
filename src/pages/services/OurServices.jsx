@@ -59,7 +59,7 @@ const OurServices = () => {
             const { title, icon: Icon, desc, id } = data;
             return (
               <div
-                className="bg-white p-5 rounded-md drop-shadow-sm border border-stone-100 space-y-4 flex flex-col"
+                className="bg-white p-5 rounded-md drop-shadow-sm border border-stone-100 space-y-4 flex flex-col max-w-sm mx-auto sm:w-full "
                 key={id}
               >
                 <p className="w-10 h-10 bg-btnBg grid place-items-center rounded-full text-white text-2xl">

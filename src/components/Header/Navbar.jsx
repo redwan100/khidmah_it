@@ -100,7 +100,7 @@ const Navbar = () => {
       {/* MOBILE MENU  */}
 
       <div
-        className={`block sm:hidden bg-zinc-500 fixed z-20 top-0 right-0 max-w-screen-sm w-full p-4 rounded-md text-center space-y-3 h-screen transition-all ${
+        className={`block sm:hidden bg-navBg fixed z-50 top-0 right-0 max-w-screen-sm w-full p-4 text-center space-y-3 h-screen transition-all ${
           showNav ? "translate-x-0" : "translate-x-[120%]"
         }`}
       >
