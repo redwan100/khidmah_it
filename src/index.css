@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 overflow-x-hidden;
+}
+
+.my-container {
+  @apply container mx-auto max-w-[1140px] w-full px-2;
+}
+
+.active {
+  @apply text-white  before:content-[''] before:w-full before:h-[0.15rem] before:bg-btnBg before:absolute before:bottom-0 before:left-0;
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, rgb(15, 15, 15), #878585);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
