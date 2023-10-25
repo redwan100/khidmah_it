@@ -19,3 +19,11 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
 }
+
+*{
+  /* Hide the vertical scrollbar */
+  ::-webkit-scrollbar {
+      width: 0;
+      background: transparent;
+    }
+  }
